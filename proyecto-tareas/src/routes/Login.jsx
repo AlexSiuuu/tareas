@@ -1,9 +1,10 @@
 import '../index.css'
+import DefaultLayout from '../layout/DefaultLayout';
 
 export default function Login() {
     return (
 
-        <div>
+        <DefaultLayout>
 
             <div className="img">
 
@@ -32,7 +33,7 @@ export default function Login() {
 
             </div>
 
-        </div>
+        </DefaultLayout>
         
         
     );
