@@ -9,7 +9,7 @@ const AuthContext = createContext({
 // eslint-disable-next-line react/prop-types
 export function AuthProvider ({children}) {
 
-    const [isAtentificacion, setIsAuthentificacion] = useState(true);
+    const [isAtentificacion, setIsAuthentificacion] = useState(false);
 
     return (
         <AuthContext.Provider value={{isAtentificacion}}>
